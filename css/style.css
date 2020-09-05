@@ -1,0 +1,91 @@
+/*google fonts here*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+h1,h2,h3,h4,h5{
+	font-family: 'Playfair Display', serif;
+}
+p,span,button,input,h6{
+	font-family: 'Work Sans', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+/*global css here*/
+*{
+	padding: 0;
+	margin: 0;
+}
+/*header part css here*/
+.header {
+    width: 100%;
+    background: url(../img/banner-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 80px;
+}
+
+.nav-link{
+	color: #bfbfbf !important;
+	font-size: 15px !important;
+	font-weight: 500 !important;
+	text-transform: uppercase;
+	transition: all 0.3s ease-in-out;
+}
+.nav-link:hover{
+	color: white !important;
+	transition: all 0.3s ease-in-out;
+}
+.nav-item{
+	margin-right: 40px
+}
+
+/*banner middle text css here*/
+.banner-text{
+	text-align: center;
+	color: white;
+	margin: 180px 0 100px;
+}
+.banner-text h6{
+	font-size: 20px;
+}
+.banner-text .title h1{
+	font-size: 56px !important;
+	margin-top: 20px;
+}
+.banner-text .sub-title h1{
+	font-size: 48px !important;
+	font-style: italic;
+}
+
+/*scroll icon css here*/
+.scroll-icon{
+	text-align: center;
+}
+.scroll-icon a i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: transparent;
+    border: 1px solid #bfbfbf;
+    line-height: 50px;
+    color: #bfbfbf;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out !important;
+}
+.scroll-icon a i:hover{
+    transition: all 0.3s ease-in-out !important;
+    color: white;
+}
+
+/*agency css here*/
+.agency{
+	text-align: center;
+}
+.agency p{
+	margin: 20px 0 30px 0;
+}
+.agency .image{
+	margin-bottom: 50px;
+}
